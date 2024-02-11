@@ -3,8 +3,17 @@ using EjericicoOSolucion.Servicios;
 
 namespace EjericicoOSolucion.Controladores
 {
+    /// <summary>
+    /// Clase principal de la aplicacion.
+    /// CSL - 090224
+    /// </summary>
     class program
     {
+        /// <summary>
+        /// Metodo principal de la aplicacion.
+        /// CSL - 090224
+        /// </summary>
+        /// <param name="args"></param>
         public static void Main(string[] args)
         {
 

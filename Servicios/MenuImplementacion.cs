@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace EjericicoOSolucion.Servicios
 {
+    /// <summary>
+    /// Clase que implementa la interfaz de la aplicacion.
+    /// CSL - 090224
+    /// </summary>
     internal class MenuImplementacion : MenuInterfaz
     {
 

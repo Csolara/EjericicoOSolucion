@@ -8,6 +8,10 @@ using System.Threading.Tasks;
 
 namespace EjericicoOSolucion.Servicios
 {
+    /// <summary>
+    /// Clase que implementa la interfaz de la operativa.
+    /// CSL - 090224
+    /// </summary>
     internal class OperativaImplementacion : OperativaInterfaz
     {
 
@@ -18,6 +22,11 @@ namespace EjericicoOSolucion.Servicios
             Console.WriteLine(listaAntigua.ToString());
         }
 
+        /// <summary>
+        /// Metodo que crea un nuevo cliente.
+        /// CSL - 090224
+        /// </summary>
+        /// <returns></returns>
         private ClienteDto crearNuevoCliente()
         {
             ClienteDto nuevoCliente = new ClienteDto();
@@ -46,6 +55,11 @@ namespace EjericicoOSolucion.Servicios
             return nuevoCliente;
         }
 
+        /// <summary>
+        /// Metodo que borra un cliente existente.
+        /// CSL - 090224
+        /// </summary>
+        /// <param name="listaAntigua"></param>
         public void borrarCliente(List<ClienteDto> listaAntigua)
         {
             Console.WriteLine("Escriba el nombre del cliente que quiere borrar: ");
